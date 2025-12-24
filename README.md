@@ -84,8 +84,9 @@
 
 ### Configuration Management & IaC
 - **Ansible**: Configuration management and automation (agentless, YAML-based)
+- **Salt (SaltStack)**: Configuration management with event-driven automation (agent-based, Python)
 - **Terraform**: Infrastructure provisioning and management (declarative, HCL)
-- Playbooks, roles, and modules
+- Playbooks, roles, modules, and states
 - Infrastructure as Code (IaC) principles
 - State management and version control
 
