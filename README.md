@@ -51,6 +51,21 @@
 - **Framework**: Pre-built structure/libraries for building applications (Django, Spring, React)
 - **Build/Start/Stop App**: Compilation, execution, and lifecycle management of applications
 
+### Application Architecture
+- **Front-end**: User interface layer - what users see and interact with (HTML, CSS, JavaScript, React, Vue)
+- **Back-end**: Server-side logic - processes data, business logic, database operations (Python, Java, Go, Node.js)
+- **API**: Application Programming Interface - allows services to communicate (REST, GraphQL, gRPC)
+- **Worker**: Background process handling async tasks (email sending, data processing, image resizing)
+- **Cronjob**: Scheduled tasks running at specific times (daily backups, reports, cleanup)
+- **Worker vs Cronjob**: Worker runs continuously processing queues; Cronjob runs at scheduled intervals
+
+### Databases
+- **Database**: Organized storage for structured data with fast retrieval
+- **Relational (SQL)**: Structured tables with relationships (PostgreSQL, MySQL, MariaDB) - for structured data, transactions
+- **NoSQL**: Flexible schemas for unstructured data (MongoDB, Redis, Cassandra) - for scaling, speed, flexibility
+- **In-Memory**: Ultra-fast data access (Redis, Memcached) - for caching, sessions
+- **When to Use**: SQL for transactions/consistency, NoSQL for scale/flexibility, In-Memory for performance
+
 ### Infrastructure Basics
 - **Server**: Physical/virtual machine that hosts applications and services
 - **Web Server**: Software serving web content (Apache, Nginx, IIS)
@@ -127,6 +142,25 @@
 - **Jenkins**: Open-source automation server (plugins, Groovy pipelines)
 - **ArgoCD**: GitOps continuous delivery for Kubernetes
 - **Ansible**: Configuration automation across all stages
+
+## 9. Monitoring & Observability
+
+### Monitoring Stack
+- **Prometheus**: Time-series database for metrics collection and storage
+- **Grafana**: Visualization and dashboards for metrics, logs, and traces
+- **Purpose**: Real-time system health, performance tracking, issue detection
+
+### Observability Components
+- **Metrics**: Numeric measurements over time (CPU usage, request count, response time)
+- **Logs**: Text records of events and errors (application logs, access logs, error logs)
+- **Traces**: Request journey through distributed systems (tracking API calls across services)
+- **Alerts**: Automated notifications when thresholds are exceeded (email, Slack, PagerDuty)
+
+### Common Tools
+- **Prometheus + Grafana**: Metrics collection and visualization
+- **ELK Stack** (Elasticsearch, Logstash, Kibana): Log aggregation and analysis
+- **Loki**: Log aggregation designed for Grafana
+- **Jaeger/Tempo**: Distributed tracing for microservices
 
 ---
 
