@@ -71,6 +71,15 @@
 - **Web Server**: Software serving web content (Apache, Nginx, IIS)
 - **DNS Server**: Translates domain names to IP addresses (BIND, Route53)
 
+### Developer Tools & AI Assistance
+- **AI Agent**: Autonomous software that performs tasks using artificial intelligence (code generation, debugging, analysis)
+- **CLI Agent**: Command-line AI assistant that works in terminal (Claude Code, GitHub Copilot CLI)
+- **Browser vs CLI**:
+  - **Browser**: Visual interface, easier for beginners, point-and-click, limited to web interface
+  - **CLI**: Terminal-based, faster workflows, automation-friendly, direct file system access, scriptable
+  - **When to Use**: Browser for visual tasks/exploration; CLI for automation, speed, and DevOps workflows
+- **Examples**: Claude (browser), Claude Code (CLI), ChatGPT, GitHub Copilot
+
 ## 4. Advanced Linux & Automation
 
 ### Configuration Management & IaC
