@@ -58,11 +58,12 @@
 
 ## 4. Advanced Linux & Automation
 
-### Configuration Management
-- **Ansible**: Automation and configuration management (agentless, YAML-based)
-- Playbooks and roles
-- System configuration management
-- Infrastructure as Code (IaC)
+### Configuration Management & IaC
+- **Ansible**: Configuration management and automation (agentless, YAML-based)
+- **Terraform**: Infrastructure provisioning and management (declarative, HCL)
+- Playbooks, roles, and modules
+- Infrastructure as Code (IaC) principles
+- State management and version control
 
 ### Network Services
 - HTTP/HTTPS web servers (Apache/Nginx)
